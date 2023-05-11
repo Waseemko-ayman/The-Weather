@@ -165,15 +165,33 @@ ul {
     margin-top: 30px;
 }
 
+@media (max-width: 767px) {
+    .card .weather img.weather-icon {
+        width: 100px;
+    }
+}
+
 .card .weather h1 {
     font-size: 80px;
     font-weight: 800;
+}
+
+@media (max-width: 767px) {
+    .card .weather h1 {
+        font-size: 60px;
+    }
 }
 
 .card .weather h2 {
     font-size: 45px;
     font-weight: 400;
     margin-top: -10px;
+}
+
+@media (max-width: 767px) {
+    .card .weather h2 {
+        font-size: 30px;
+    }
 }
 
 .card .weather .details {
@@ -197,6 +215,7 @@ ul {
     max-width: 100%;
     width: 60px;
 }
+
 
 .card .humidity, .card .wind {
     font-size: 28px;
