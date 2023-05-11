@@ -9,7 +9,6 @@
     --main-transition: 0.3s;
     --section-padding: 50px;
     --section-padding: 50px;
-    --fa-style-family-classic: "Font Awesome 6 Free";
     /* padding-top: var(--section-padding);
     padding-bottom: var(--section-padding); */
 }
@@ -102,6 +101,11 @@ ul {
 /******************************************************************************************************/
 
 /* Start card */
+.container {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+}
+
 .card {
     width: 90%;
     max-width: 470px;
@@ -139,6 +143,14 @@ ul {
     border-radius: 30px;
     flex: 1;
     font-size: 18px;
+}
+
+.card .search input::placeholder {
+    transition: var(--main-transition);
+}
+
+.card .search input:focus::placeholder {
+    opacity: 0;
 }
 
 .card .search button {
