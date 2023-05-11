@@ -184,7 +184,7 @@ ul {
 }
 
 .card .weather h1 {
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 800;
 }
 
@@ -195,15 +195,9 @@ ul {
 }
 
 .card .weather h2 {
-    font-size: 45px;
+    font-size: 20px;
     font-weight: 400;
     margin-top: -10px;
-}
-
-@media (max-width: 767px) {
-    .card .weather h2 {
-        font-size: 30px;
-    }
 }
 
 .card .weather .details {
